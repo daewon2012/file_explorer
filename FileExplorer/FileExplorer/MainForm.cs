@@ -14,8 +14,7 @@ namespace FileExplorer
         public MainForm()
         {
             InitializeComponent();
+            Console.WriteLine("Test" + this.ClientSize + this.Size);
         }
-
-        String FileDirName;
     }
 }
